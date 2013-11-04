@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+</head>
+
+<body>
+	<div class="container">
+		<p class="back_to_link">
+		<%= link_to "<< Back to recommendations", recommendations_url %></p>
+		<h1 class="page_header">Movies</h1>
+		<br>
+	  	<%= link_to "Add new", new_movie_url, {:class => "button_add_new"} %>
+	  	<br>
+		<br>
+		<br>
+		<br>
+		<% @movie.each do |movie| %>
+		<div class="list_item_movie">
+			<p id="button_delete"><%= link_to "X", movie_url(movie.id), method: 'delete' %></p>
+			<p class="movie_name"><%= movie.name %></p>
+			<p><%= movie.genre %></p>
+		</div>
+		<% end %>
+	</div>
+</body>

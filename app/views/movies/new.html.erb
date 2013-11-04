@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+</head>
+
+<body>
+	<div class="container">
+		<%= form_tag "/movies", method: 'post' do %>
+		<h1 class="new_movie">What should we watch?</h1>
+			<%= label_tag "name" %>
+			<%= text_field_tag "name" %><br>
+			<%= label_tag "genre" %>
+			<%= select_tag "genre", "<option>Action</option><option>Adventure</option><option>Comedy</option><option>Drama</option><option>Education</option><option>Family</option><option>Fantasy</option><option>Historical</option><option>Horror</option><option>Musical</option><option>Mystery</option><option>Romance</option><option>Sci-fi</option><option>Western</option>".html_safe %><br>
+			<%= submit_tag "Go For It!" %>
+		<% end %>
+	</div>
+</body>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+</head>
+
+<body>
+	<div class="container">
+		<p class="back_to_link">
+		<%= link_to "<< Back to recommendations", recommendations_url %></p>
+		<h1 class="page_header">Restaurants</h1>
+		<br>
+		<%= link_to "Add new", new_restaurant_url, {:class => "button_add_new"} %>
+		<br>
+		<br>
+		<br>
+		<br>
+		<% @restaurant.each do |restaurant| %>
+			<div class="list_item_rest">
+			<p id="button_delete"><%= link_to "X", restaurant_url(restaurant.id), method: 'delete' %></p>
+			<p class="rest_name"><%= restaurant.name %></p>
+			<p class="rest_location"><%= restaurant.location %></p>
+			<p class="rest_price"><%= restaurant.price %></p>
+			<p class="rest_cuisine"><%= restaurant.cuisine %></p>
+		</div>
+		<% end %>
+	</div>
+</body>

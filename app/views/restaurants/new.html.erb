@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+</head>
+
+<body>
+	<div class="container">
+		<%= form_tag "/restaurants", method: 'post' do %>
+		<h1 class="new_rest">Where should we eat?</h1>
+			<h2 class="label_name"><%= label_tag "name" %></h2>
+			<div id="enter_name"><%= text_field_tag "name" %><br>
+			<h2 class="label_cuisine"><%= label_tag "cuisine" %></h2>
+			<%= select_tag "cuisine", "<option>American</option><option>Bar/Gastro Pub/Wine Bar</option><option>BBQ</option><option>Chinese</option><option>Deli</option><option>French</option><option>Indian</option><option>Italian</option><option>Korean</option><option>Latin/South American</option><option>Mexican</option><option>Middle Eastern</option><option>Seafood</option><option>Spanish</option><option>Steakhouse</option><option>Sushi</option><option>Thai</option>".html_safe %><br>
+				<%= label_tag "price" %>
+				<%= select_tag "price", "<option>$</option><option>$$</option><option>$$$</option><option>$$$$</option>".html_safe %>
+			<br>
+			<%= label_tag "location" %>
+			<%= text_field_tag "location" %><br>
+			<%= submit_tag "Go For It!" %>
+		<% end %>
+	</div>
+</body>
