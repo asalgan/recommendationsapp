@@ -17,7 +17,7 @@ class MoviesController < ApplicationController
 
     def create
 		movie = Movie.new
-		movie.name = params["name"]
+		movie.name = params["name1"]
 		movie.genre = params["genre"]
 		movie.save
 		redirect_to movies_url

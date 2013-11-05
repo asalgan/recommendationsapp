@@ -3808,8 +3808,78 @@ textarea.input-group-sm > .input-group-btn > .btn {
 	margin-top: 40px;
 }
 
+#name {
+	font-size: 36px;
+	border-radius: 4px;
+	color: #2D2D2D;
+	margin-left: 30%;
+}
+
+#cuisine {
+	font-size: 26px;
+	color: #2D2D2D;
+	margin-left: 22%;
+}
+
+#price {
+	font-size: 26px;
+	color: #2D2D2D;
+	margin-left: 16%;
+	margin-top: -5px;
+}
+
+#location {
+	font-size: 36px;
+	border-radius: 4px;
+	color: #2D2D2D;
+	margin-left: 16.3%;
+}
+
+.button_submit_rest {
+	color: white;
+	background-color: #FF7400;
+	border-radius: 3px;
+	padding:14px 20px;
+	font-family: 'Raleway', sans-serif;
+	border: none;
+	margin-left: 25%;
+	margin-bottom:40px;
+	font-size: 20px;
+}
+
+.button_submit_rest:hover {
+	color: #eeeeee;
+	background-color: #D15600;
+}
+
+.button_submit_movie {
+	color: white;
+	background-color: #FF7400;
+	border-radius: 3px;
+	padding:14px 20px;
+	font-family: 'Raleway', sans-serif;
+	border: none;
+	margin-left: 41.5%;
+	margin-top:40px;
+	font-size: 20px;
+}
+
+.button_submit_movie:hover {
+	color: #eeeeee;
+	background-color: #D15600;
+}
+
+.links_rest {
+	color: #F9F7ED;
+	font-family: 'Raleway', sans-serif;
+}
+
+.links_rest:hover {
+	color: #F9F7ED;
+}
+
 body {
-	background-image: url(greywall.png)
+	background-image: url(greywall.png);
 }
 
 .list_item_rest {
@@ -3833,6 +3903,10 @@ body {
 	font-size: 46px;
 	margin-top: 40px;
 	margin-left: 25%;
+}
+
+.rest_price {
+	margin-top: -10px;
 }
 
 .rest_location {
@@ -3873,10 +3947,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-
-
 .button_add_new:hover {
 	color: #eeeeee;
+	background-color: #D15600;
+	text-decoration: none;
 }
 
 #button_restaurants {
@@ -3941,7 +4015,47 @@ body {
 .label_cuisine {
 	color: #ffffff;
 	margin-left: 42%;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.label_price {
+	margin-left: 28%;
+	margin-top: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.label_location {
+	color: #ffffff;
+	margin-left: 41%;
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.label_name1 {
+	color: #ffffff;
+	margin-left: 43%;
 	margin-top: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#enter_name1 {
+	font-size: 36px;
+	border-radius: 4px;
+	color: #2D2D2D;
+	margin-left: 30%;
+}
+
+.genre {
+	color: #ffffff;
+	margin-left: 43%;
+	margin-top: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#genre {
+	margin-left: 25%;
+	margin-top: 0px;
 	font-family: 'Raleway', sans-serif;
 }
 
