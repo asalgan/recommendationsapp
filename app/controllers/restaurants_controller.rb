@@ -12,6 +12,18 @@ class RestaurantsController < ApplicationController
 
 	def index
 		@restaurant = Restaurant.all
+
+		x = params[:sort]
+		@restaurant = @restaurant.order(x)
+
+		# if params.has_key?("sort")
+		# 	has_name = params["sort"]
+		# 	@restaurant = @restaurant.order(has_name)
+		# end
+
+		# if params.has_key?("sort")
+		# 	@restaurant = @restaurant.order(params.has_value?("cuisine"))
+		# end
 	end
 
 	def new

@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<head>
-</head>
 
-<body>
 	<div class="container">
 		<p class="back_to_link">
-		<%= link_to "<< Back to recommendations", recommendations_url %></p>
+		<%= link_to "&larr; I don't want to see a movie".html_safe, recommendations_url %></p>
 		<h1 class="page_header">Movies</h1>
 		<br>
 	  	<%= link_to "Add new", new_movie_url, {:class => "button_add_new"} %>
@@ -13,6 +9,8 @@
 		<br>
 		<br>
 		<br>
+		<p class="links_movie"><%= link_to "Sort by Name", movies_url(:sort => "name"), {:class => "links_movie"} %>
+		  |  <%= link_to "Sort by Genre", movies_url(:sort => "genre"), {:class => "links_movie"} %></p>
 		<% @movie.each do |movie| %>
 		<div class="list_item_movie">
 			<p id="button_delete"><%= link_to "X", movie_url(movie.id), method: 'delete' %></p>
@@ -21,4 +19,3 @@
 		</div>
 		<% end %>
 	</div>
-</body>

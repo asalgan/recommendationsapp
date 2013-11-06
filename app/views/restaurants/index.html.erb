@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<head>
-</head>
 
-<body>
 	<div class="container">
 		<p class="back_to_link">
-		<%= link_to "<< Back to recommendations", recommendations_url %></p>
+		<%= link_to "&larr; I don't want to go to a restaurant".html_safe, recommendations_url %></p>
 		<h1 class="page_header">Restaurants</h1>
 		<br>
 		<%= link_to "Add new", new_restaurant_url, {:class => "button_add_new"} %>
@@ -15,7 +11,9 @@
 		<br>
 		<p class="links_rest"><%= link_to "Sort by Name", restaurants_url(:sort => "name"), {:class => "links_rest"} %>
 		  |  <%= link_to "Sort by Cuisine", restaurants_url(:sort => "cuisine"), {:class => "links_rest"} %>
-		  |  Showing <%= @restaurant.count %> of <%= Restaurant.count %> restaurants.</p>
+		  |	 <%= link_to "Sort by Price", restaurants_url(:sort => "price"), {:class => "links_rest"} %>
+		  <!-- |  Showing <%= @restaurant.count %> of <%= Restaurant.count %> restaurants. -->
+		</p>
 		<% @restaurant.each do |restaurant| %>
 			<div class="list_item_rest">
 			<p id="button_delete"><%= link_to "X", restaurant_url(restaurant.id), method: 'delete' %></p>
@@ -28,4 +26,3 @@
 		<% end %>
 
 	</div>
-</body>
