@@ -1,0 +1,396 @@
+#homepage_header{
+	color: #eeeeee;
+	margin-top: 50px;
+	text-shadow: 0px 2px 3px #555555;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;	
+	font-size: 66px;
+}
+
+.back_to_link a{
+	margin-top: 20px;
+	color: #F9F7ED;
+	font-family: 'Raleway', sans-serif;
+}
+
+.back_to_link {
+	margin-top: 20px;
+}
+.page_header{
+	color: #222;
+	text-shadow: 0px 2px 3px #555555;
+	font-family: 'Raleway', sans-serif;
+	font-size: 46px;
+	margin-top: 40px;
+}
+
+#name {
+	font-size: 36px;
+	border-radius: 4px;
+	color: #5E5E5E;
+	margin-left: 25%;
+	font-family: 'Raleway', sans-serif;
+}
+
+#cuisine {
+	font-size: 26px;
+	font-family: 'Raleway', sans-serif;
+	color: #2D2D2D;
+	margin-left: 17%;
+	margin-top: 0px;
+	width: 410px;
+	font-weight: 10px;
+}
+
+#price {
+	font-size: 26px;
+	color: #2D2D2D;
+	margin-left: 33%;
+	margin-top: -5px;
+}
+
+#location {
+	font-size: 36px;
+	border-radius: 4px;
+	color: #5E5E5E;
+	margin-left: 13.5%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.button_submit_rest {
+	color: white;
+	background-color: #FF7400;
+	border-radius: 3px;
+	padding:14px 38px;
+	font-family: 'Raleway', sans-serif;
+	border: none;
+	margin-left: 42%;
+	margin-bottom:40px;
+	font-size: 20px;
+}
+
+.button_submit_rest:hover {
+	color: #eeeeee;
+	background-color: #D15600;
+}
+
+.button_submit_movie {
+	color: white;
+	background-color: #FF7400;
+	border-radius: 3px;
+	padding:14px 38px;
+	font-family: 'Raleway', sans-serif;
+	border: none;
+	margin-left: 38%;
+	margin-top: 20px;
+	margin-bottom:40px;
+	font-size: 20px;
+}
+
+.button_submit_movie:hover {
+	color: #eeeeee;
+	background-color: #D15600;
+}
+
+.links_rest {
+	color: #F9F7ED;
+	font-family: 'Raleway', sans-serif;
+}
+
+.links_rest:hover {
+	color: #F9F7ED;
+}
+
+.links_movie {
+	color: #F9F7ED;
+	font-family: 'Raleway', sans-serif;
+}
+
+.links_movie:hover {
+	color: #F9F7ED;
+}
+
+body {
+	background-image: url(greywall.png);
+	background-repeat: repeat;
+}
+
+.list_item_rest {
+	padding: 20px;
+	margin-right: 70%;
+	background-color: #7FCDCD;
+	margin-top: 15px;
+}
+
+.list_item_movie {
+	padding: 20px;
+	margin-right: 70%;
+	background-color: #DFCFBE;
+	margin-top: 15px;
+}
+
+.new_rest {
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 46px;
+	margin-top: 40px;
+	margin-left: 20%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+.new_movie {
+	color: #222;
+	text-shadow: 0px 2px 3px #555555;
+	font-family: 'Raleway', sans-serif;
+	font-size: 46px;
+	margin-top: 40px;
+	margin-left: 18%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+.rest_price {
+	margin-top: -10px;
+}
+
+.rest_location {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #36393D;
+	margin-top: -15px;
+}
+
+.rest_cuisine {
+	margin-bottom: -20px;
+}
+
+#button_delete a{
+	color: #36393D;
+	float: right;
+	margin-top: -12px;
+	margin-right: -8px;
+}
+
+.rest_name, .movie_name {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	color: #36393D;
+	margin-top: -20px;
+}
+
+#main_buttons{
+	margin: 16%;
+	display: inline;	
+}
+
+.button_add_new {
+	color: white;
+	background-color: #FF7400;
+	border-radius: 3px;
+	padding:10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.button_add_new:hover {
+	color: #eeeeee;
+	background-color: #D15600;
+	text-decoration: none;
+}
+
+#button_restaurants {
+  margin-top: 10%;
+  padding: 80px 27px;
+  background-image: url(http://icdn6.digitaltrends.com/image/restaurant-2-650x0.jpg);
+  background-size: 300px 220px;
+  background-repeat: no-repeat;
+  opacity: .8;
+}
+
+#button_restaurants:hover {
+	color: gray;
+	background-image: url(http://icdn6.digitaltrends.com/image/restaurant-2-650x0.jpg);
+	opacity: 1;
+}
+
+#button_movies {
+  margin-top: 10%;
+  margin-left: 60px;
+  padding: 80px 56px;
+  background-image: url(http://images.fandango.com/images/fandangoblog/movie-theater-inside-amc-pacific.jpg);
+  background-size: 300px 220px;
+  background-repeat: no-repeat;
+  opacity: .8;
+}
+
+#button_movies:hover {
+color: gray;
+	background-image: url(http://images.fandango.com/images/fandangoblog/movie-theater-inside-amc-pacific.jpg);
+	opacity: 1;
+	background-color: blue;
+	z-index:;
+
+}
+
+#button_restaurants a {
+	color: white;
+	background-color: #36393D;
+	opacity: .7;
+	padding: 20px 50px;
+	margin: -20px auto;
+	font-size: 26px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+
+.cuisine_dropdown{
+	color: blue;
+	font-size: 40px;
+}
+
+#button_movies a {
+	color: white;
+	background-color: #36393D;
+	opacity: .7;
+	padding: 20px 50px;
+	margin: -20px auto;
+	font-size: 26px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+
+#button_restaurants a:hover {
+	background-color: gray;
+}
+
+#button_movies a:hover {
+	background-color: gray;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.label_name {
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	margin-top: 40px;
+	margin-left: 36%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+.label_cuisine {
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	margin-top: 5px;
+	margin-left: 44%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+.label_price {
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	margin-top: -10px;
+	margin-left: 55%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+.label_location {
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	margin-top: 20px;
+	margin-left: 43%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+.label_name1 {
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	margin-top: 40px;
+	margin-left: 40%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+#enter_name1 {
+	font-size: 36px;
+	border-radius: 4px;
+	color: #2D2D2D;
+	margin-left: 25%;
+}
+
+.genre {
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	margin-top: 10px;
+	margin-left: 44%;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 2px 3px;
+}
+
+#genre {
+	margin-left: 25%;
+	margin-top: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#main_section_rest {
+	background-image: url(leather.png);
+	background-repeat: repeat;
+	padding: 10px;
+	margin: 0 auto;
+	width: 70%;
+}
+
+#main_section_movie {
+	background-image: url(leather.png);
+	background-repeat: repeat;
+	padding: 10px;
+	margin: 0 auto;
+	width: 70%
+}
